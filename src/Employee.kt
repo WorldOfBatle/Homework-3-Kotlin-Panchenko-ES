@@ -8,6 +8,25 @@ class Employee(
     private val salary: Int,
     val age: Int
 ) {
+    constructor(
+        lastName: String,
+        firstName: String,
+        middleName: String,
+        position: String,
+        email: String,
+        phoneNumber: String,
+        age: Int
+    ) : this(
+        lastName,
+        firstName,
+        middleName,
+        position,
+        email,
+        phoneNumber,
+        0,
+        age
+    )
+
     fun printInfo() {
         println("ФИО: $lastName $firstName $middleName")
         println("Должность: $position")

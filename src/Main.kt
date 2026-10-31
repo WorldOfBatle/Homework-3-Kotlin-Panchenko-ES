@@ -14,4 +14,17 @@ fun main() {
     )
 
     employee.printInfo()
+    println()
+
+    val probationEmployee = Employee(
+        lastName = "Сидоров",
+        firstName = "Андрей",
+        middleName = "Павлович",
+        position = "Специалист",
+        email = "sidorov@example.ru",
+        phoneNumber = "+7 (999) 234-56-78",
+        age = 45
+    )
+
+    probationEmployee.printInfo()
 }
