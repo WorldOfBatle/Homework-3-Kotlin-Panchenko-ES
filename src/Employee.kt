@@ -33,6 +33,6 @@ class Employee(
         println("Email: $email")
         println("Телефон: $phoneNumber")
         println("Зарплата: $salary руб.")
-        println("Возраст: $age лет")
+        println("Возраст: $age")
     }
 }
